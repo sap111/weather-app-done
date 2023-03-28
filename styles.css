@@ -1,0 +1,31 @@
+styles.box {
+  max-width: 650px;
+  margin: 50px auto;
+  background: linear-gradient(
+      rgb(86, 166, 219),
+      rgb(180, 209, 219),
+      rgb(85, 214, 74)
+    ),
+    url("/src/image/weather.jpg");
+  border: 2px solid;
+  border-radius: 10px;
+}
+h1 {
+  padding: 10px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(12, 98, 212);
+}
+.container {
+  display: block;
+  margin: 5px auto;
+  backdrop-filter: blur(50px);
+  border: 2px solid;
+  padding: 15px;
+}
+footer {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 18px;
+}
